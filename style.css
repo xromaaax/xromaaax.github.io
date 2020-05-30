@@ -1,0 +1,53 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #a3ddcf;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: repeat(3, minmax(auto, 400px)); */
+    justify-items: center;
+    align-items: center;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav li {
+  padding-left: 40px;
+  list-style: none;
+}
+
+nav a {
+  color: white;
+}
+
+nav a:hover {
+  color: black;
+}
+
+
+h1 {
+  text-align: center;
+  font-family: "Cookie", cursive;
+  font-size: 60px;
+}
+h2 {
+  font-family: "Lobster", cursive;
+  font-size: 40px;
+}
+
+img {
+  height: 300px;
+}
+
+.center {
+  text-align: center;
+}
+
